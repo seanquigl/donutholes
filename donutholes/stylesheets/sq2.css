@@ -1,0 +1,280 @@
+Written by Sean Quigley in 2019
+
+
+body {
+/* OLD  background-color: #f9f9f9;*/
+	background-color: #80ffb3;
+}
+
+body {
+
+
+    background-attachment: fixed;
+    background-position: 60px 155px;
+    background-size: 10%;
+    background-color:#80ffb3;
+    }
+}
+
+
+/* old color# #f9f9f9 */
+
+p {
+    color: #0048fb;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 20px;
+
+}
+
+p.sectionhead {
+    color: Black;
+    font-family: 'Asap', sans-serif;
+    font-size: 23px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+p.sectionhead:hover {
+    color: #fe9900;
+
+}
+
+p.poemtitle {
+    color: Black;
+    font-family: 'Asap', sans-serif;
+    font-size: 23px;
+    margin-left: 10px;
+
+}
+
+p.poemtitle:hover {
+    color: #fe9900;
+
+}
+
+
+p.poemstanza {
+    color: black;
+    font-family: 'Esteban', serif;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80%;
+
+}
+
+p.poemstanza:hover {
+    color: #0048fb;
+
+}
+
+p.backlink {
+    color: #fe9900
+    font-family: 'Cutive Mono', monospace;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+p.basictext {
+      color: #0048fb;
+      align: center;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 10px;
+
+}
+
+
+div.orangebox {
+    background-color: #fe9900;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.homebutton {
+    display : none;
+}
+
+div.orangebox:hover .homebutton {
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    object-position: center;
+}
+
+
+div.blackbox {
+    background-color: Black;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+div.topbluebox {
+    background-color: #0048fb;
+    height: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+
+div.bottombluebox {
+    background-color: #0048fb;
+    height: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+}
+
+div.rightbluebox {
+    background-color: #0048fb;
+    width: 10px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+
+}
+
+div.leftbluebox {
+    background-color: #0048fb;
+    width: 10px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+
+}
+
+div.headlinecontainer {
+    margin: 0 auto;
+
+}
+
+div.headline {
+    margin-left: 3%;
+    padding-left: 0px;
+    font-size: 13px;
+
+}
+
+
+div.headline:hover {
+
+
+}
+
+@media screen and (max-width: 900px){
+span.navbar {
+  display:none;
+  }
+
+}
+
+div.navbarcontainer {
+    margin: 0 auto;
+
+}
+
+div.navbar {
+    display: inline-block;
+    height: 18px;
+    border: 2px solid Yellow;
+    color: #0048fb;
+    font-family: 'Spectral', serif;
+    margin-left: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-size: 12px;
+
+}
+
+div.contentcontainer {
+    margin: 0 auto;
+
+}
+
+div.radio {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  width: 40%;
+  height: auto;
+  border: 5px dotted Yellow;
+  color: #0048fb;
+  font-family: 'Cutive Mono', monospace;
+}
+
+
+div.content {
+    margin-left: 10%;
+	margin-right: 10%;
+    width: 80%;
+    height: auto;
+    border: 5px solid Yellow;
+    color: #0048fb;
+    font-family: 'Libre Baskerville';
+}
+
+
+audio {
+  width: 70%;
+  align: center;
+  margin-left: 10%;
+
+}
+
+
+	
+body {
+	    background-color:#80ffb3;
+}
+
+a:link {
+  color: #0048fb;
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: #0048fb;
+
+}
+
+a:hover {
+  color: Yellow;
+  text-decoration: underline;
+
+}
+
+a:active {
+  color: Yellow;
+
+}
+
+img.contain {
+    text-align: center
+    display: block
+    width: 80%;
+    height: 80%;
+    margin: 10px;
+
+}
