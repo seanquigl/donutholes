@@ -213,3 +213,7 @@ img.contain {
     margin: 10px;
 
 }
+img.fun {
+                width:100%;
+                height:100%;
+            }
